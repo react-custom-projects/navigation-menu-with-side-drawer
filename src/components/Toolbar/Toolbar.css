@@ -1,0 +1,30 @@
+.toolbar {
+    padding: 0 5px;
+}
+.toolbar-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    max-width: 100px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar-navigation-items {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .toolbar-navigation-items {
+        display: flex;
+    }
+
+    .toolbar-toggle-button {
+        display: none;
+    }
+}

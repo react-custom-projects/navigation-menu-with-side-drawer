@@ -1,0 +1,6 @@
+.main-menu-dropdown .navigation-item a:active,
+.main-menu-dropdown .navigation-item a.active,
+.navigation-item a:active,
+.navigation-item a.active {
+    color: yellow;
+}
